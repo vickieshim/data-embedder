@@ -1,0 +1,19 @@
+Term ID,Group name
+UBERON:0002298,brainstem
+ILX:0778144,brainstem dorsal midline caudal point
+ILX:0778146 ,brainstem dorsal midline cranial point
+ILX:0778150,brainstem dorsal midline midbrain-pons junction
+ILX:0778148,brainstem dorsal midline pons-medulla junction
+ILX:0778157,brainstem exterior
+ILX:0778145,brainstem ventral midline caudal point
+ILX:0778147,brainstem ventral midline cranial point
+ILX:0778151,brainstem ventral midline midbrain-pons junction
+ILX:0778149,brainstem ventral midline pons-medulla junction
+ILX:0778162,brainstem-spinal cord interface
+UBERON:0001896,medulla oblongata
+ILX:0778159,medulla oblongata exterior
+UBERON:0001891,midbrain
+ILX:0778158,midbrain exterior
+UBERON:0000988,pons
+ILX:0778160,pons exterior
+ILX:0778163,thalamus-brainstem interface

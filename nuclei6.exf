@@ -1,0 +1,1941 @@
+EX Version: 3
+Region: /
+!#nodeset nodes
+Define node template: node1
+Shape. Dimension=0
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=3 (value,d/ds1,d/ds2)
+ y. #Values=3 (value,d/ds1,d/ds2)
+ z. #Values=3 (value,d/ds1,d/ds2)
+Node template: node1
+Node: 1
+  2.026258825475539e+01  1.573117312509986e-01  1.514532624728337e+00
+ -1.743114854953163e+00  2.347228458841823e+00  0.000000000000000e+00
+ -3.480683217537594e+01 -1.320002158454373e-01  1.804949695982731e+00
+Node: 2
+  1.715583808641182e+01  2.224723843747057e-01 -7.405300330917894e+00
+ -1.232568334324387e+00  3.319482320482202e+00  9.680569060166444e-01
+ -2.943077221546729e+01 -1.866764952381638e-01  8.388699190765257e+00
+Node: 3
+  1.593390997188674e+01 -2.141872578054076e+00 -8.365000426908647e+00
+  8.806797448838894e-01  2.032596699215781e-16  2.627798066181751e+00
+ -3.117463982473574e+01 -2.552584339953234e+00  7.019068773046244e+00
+Node: 4
+  1.442872122037956e+01 -2.224723843488130e-01 -9.547172908110094e+00
+ -1.232568334324387e+00 -3.319482320482202e+00  9.680569060166446e-01
+ -3.268082353798549e+01  1.866764955065197e-01  5.836114851491268e+00
+Node: 5
+  1.565064933490465e+01  2.141872577804792e+00 -8.587472810257998e+00
+ -3.345816413532663e+00 -6.097790097591899e-16 -6.916842541527365e-01
+ -3.093695592871703e+01  2.552584339953234e+00  7.205745268284407e+00
+Node: 6
+  6.928362829059623e+00  3.146234628507840e-01 -1.198720878507031e+01
+  0.000000000000000e+00  4.694456917603394e+00  1.369039205670499e+00
+ -1.970186667064307e+01 -2.640004316908747e-01  1.005846247044010e+01
+Node: 7
+  5.200295517253252e+00 -3.029065248889895e+00 -1.198720878508666e+01
+  2.988584094275237e+00  2.874525818988212e-16  1.369039205637676e+00
+ -2.216806789465367e+01 -3.609899392995984e+00  1.005846247157806e+01
+Node: 8
+  3.071637170940377e+00 -3.146234628507845e-01 -1.198720878507031e+01
+  2.220446049250313e-16 -4.694456917603393e+00  1.369039205670499e+00
+ -2.429813332935694e+01  2.640004316908742e-01  1.005846247044010e+01
+Node: 9
+  4.799704482746748e+00  3.029065248889895e+00 -1.198720878508666e+01
+ -2.988584094275237e+00 -8.623577456964635e-16  1.369039205637675e+00
+ -2.183193210534633e+01  3.609899392575841e+00  1.005846247040740e+01
+Node: 10
+ -4.428721220379561e+00  2.224723838296610e-01 -9.547172906998933e+00
+  1.232568334324387e+00  3.319482320470129e+00  9.680569060131236e-01
+ -1.131917646201451e+01 -1.866764955065200e-01  5.836114851491268e+00
+Node: 11
+ -5.650649334904649e+00 -2.141872577804791e+00 -8.587472810257999e+00
+  3.345816413532663e+00  2.032596699226871e-16 -6.916842541627992e-01
+ -1.306304407128297e+01 -2.552584339953234e+00  7.205745268531037e+00
+Node: 12
+ -7.155838086411819e+00 -2.224723838296612e-01 -7.405300329194142e+00
+  1.232568334324387e+00 -3.319482320470129e+00  9.680569060131233e-01
+ -1.456922778453271e+01  1.866764952381635e-01  8.388699190765257e+00
+Node: 13
+ -5.933909971886731e+00  2.141872577804791e+00 -8.365000425935076e+00
+ -8.806797448838890e-01 -6.097790097680611e-16  2.627798066196088e+00
+ -1.282536017526426e+01  2.552584339953234e+00  7.019068773292874e+00
+Node: 14
+ -1.026258825475539e+01 -1.573117312326896e-01  1.514532624552066e+00
+  1.743114854953163e+00 -2.347228458824749e+00  0.000000000000000e+00
+ -9.193167824624062e+00  1.320002158454373e-01  1.804949695982731e+00
+Define node template: node2
+Shape. Dimension=0
+#Fields=2
+1) marker_location, field, element_xi, #Components=1, host mesh=mesh2d, host mesh dimension=2
+ 1. #Values=1 (value)
+2) marker_name, field, string, #Components=1
+ 1. #Values=1 (value)
+Node template: node2
+Node: 15
+ 1  0.000000000000000e+00  0.000000000000000e+00
+ nuclei
+Node template: node1
+Node: 121
+  5.626258825475539e+01  1.573117312345793e-01  1.514532624570259e+00
+ -2.743114854953163e+00  2.347228458835870e+00  0.000000000000000e+00
+ -5.980683217537594e+01 -1.320002158316599e-01  1.804949695794341e+00
+Node: 122
+  5.315583808641182e+01  2.224723843514853e-01 -7.405300330144972e+00
+ -2.232568334324387e+00  3.319482320473784e+00  9.680569060141895e-01
+ -5.443077221546729e+01 -1.866764952186796e-01  8.388699189889694e+00
+Node: 123
+  5.193390997188674e+01 -2.141872577830520e+00 -8.365000426035559e+00
+ -1.193202551161106e-01  2.032596699214323e-16  2.627798066179866e+00
+ -5.617463982473574e+01 -2.552584339686810e+00  7.019068772313635e+00
+Node: 124
+  5.042872122037956e+01 -2.224723843255927e-01 -9.547172907113616e+00
+ -2.232568334324387e+00 -3.319482320473784e+00  9.680569060141897e-01
+ -5.768082353798549e+01  1.866764954870355e-01  5.836114850882129e+00
+Node: 125
+  5.165064933490465e+01  2.141872577581236e+00 -8.587472809361689e+00
+ -4.345816413532663e+00 -6.097790097665147e-16 -6.916842541610452e-01
+ -5.593695592871703e+01  2.552584339686810e+00  7.205745267532314e+00
+Node: 126
+  4.292836282905962e+01  3.146234628179455e-01 -1.198720878381916e+01
+ -1.000000000000000e+00  4.694456917600026e+00  1.369039205669517e+00
+ -4.470186667064307e+01 -2.640004316633199e-01  1.005846246939026e+01
+Node: 127
+  4.120029551725325e+01 -3.029065248573739e+00 -1.198720878383551e+01
+  1.988584094275237e+00  2.874525818980922e-16  1.369039205634204e+00
+ -4.716806789465367e+01 -3.609899392619204e+00  1.005846247052822e+01
+Node: 128
+  3.907163717094038e+01 -3.146234628179460e-01 -1.198720878381916e+01
+ -9.999999999999998e-01 -4.694456917600025e+00  1.369039205669517e+00
+ -4.929813332935694e+01  2.640004316633194e-01  1.005846246939026e+01
+Node: 129
+  4.079970448274675e+01  3.029065248573739e+00 -1.198720878383551e+01
+ -3.988584094275237e+00 -8.623577456942766e-16  1.369039205634203e+00
+ -4.683193210534633e+01  3.609899392199061e+00  1.005846246935756e+01
+Node: 130
+  3.157127877962044e+01  2.224723838323334e-01 -9.547172907113616e+00
+  2.325683343243869e-01  3.319482320473784e+00  9.680569060141895e-01
+ -3.631917646201451e+01 -1.866764954870358e-01  5.836114850882129e+00
+Node: 131
+  3.034935066509535e+01 -2.141872577830520e+00 -8.587472810361154e+00
+  2.345816413532663e+00  2.032596699221716e-16 -6.916842541610452e-01
+ -3.806304407128297e+01 -2.552584339686810e+00  7.205745267778944e+00
+Node: 132
+  2.884416191358818e+01 -2.224723838323336e-01 -7.405300329283096e+00
+  2.325683343243869e-01 -3.319482320473784e+00  9.680569060141893e-01
+ -3.956922778453271e+01  1.866764952186793e-01  8.388699189889694e+00
+Node: 133
+  3.006609002811327e+01  2.141872577830520e+00 -8.365000426035559e+00
+ -1.880679744883889e+00 -6.097790097665147e-16  2.627798066189424e+00
+ -3.782536017526426e+01  2.552584339686810e+00  7.019068772560265e+00
+Node: 134
+  2.573741174524461e+01 -1.573117312345793e-01  1.514532624570259e+00
+  7.431148549531630e-01 -2.347228458835870e+00  0.000000000000000e+00
+ -3.419316782462406e+01  1.320002158316599e-01  1.804949695794341e+00
+Node template: node2
+Node: 135
+ 129  0.000000000000000e+00  0.000000000000000e+00
+ nuclei
+Node template: node1
+Node: 181
+  4.130525826249856e+01  4.196030003587001e-01  1.975258209923842e+00
+  2.429846407585562e+00  2.316535695434898e+00 -3.059961056425420e-01
+ -2.394685701404848e+01 -9.616740443286988e-02  1.247547138280114e+00
+Node: 182
+  4.006527519425953e+01  5.934082544598865e-01 -4.326413538212849e+00
+  2.907133679533614e+00  3.276076198132044e+00  1.210989521605399e+00
+ -1.786005047027868e+01 -1.360012473320216e-01  1.029376177613728e+01
+Node: 183
+  3.866469342691508e+01 -2.793436949595863e+00 -5.426427886675210e+00
+  5.268241849619097e+00  4.327438426456615e-01  3.065399541949629e+00
+ -1.906981859770551e+01 -1.764298083276738e+00  9.343612110560731e+00
+Node: 184
+  3.650856080432333e+01 -5.934082539989948e-01 -7.119850487672093e+00
+  3.458120252691954e+00 -3.276076198124365e+00  1.643733364236743e+00
+ -2.010642455858629e+01  1.360012479527796e-01  8.529463692747877e+00
+Node: 185
+  3.790914257166779e+01  2.793436949346578e+00 -6.019836140145186e+00
+  1.097012082606473e+00 -4.327438426085262e-01 -2.106766559153156e-01
+ -1.889665643115946e+01  1.764298083425282e+00  9.479613358509342e+00
+Node: 186
+  3.351497686386767e+01  8.392060010394041e-01 -8.093730912164432e+00
+  4.610393657776999e+00  4.633071390775613e+00  2.018593911093223e+00
+ -5.411573649075935e+00 -1.923348089231376e-01  1.331003037413215e+01
+Node: 187
+  3.153425513327664e+01 -3.950516419673436e+00 -8.093730912892665e+00
+  7.949504854141810e+00  6.119922113033505e-01  2.018593911406354e+00
+ -7.122444142209665e+00 -2.495094277429009e+00  1.331003037410478e+01
+Node: 188
+  2.848502313613233e+01 -8.392060007691651e-01 -8.093730912356342e+00
+  5.389606342223001e+00 -4.633071390775611e+00  2.018593911093223e+00
+ -8.588426350924067e+00  1.923348088555775e-01  1.331003037418013e+01
+Node: 189
+  3.046574486672336e+01  3.950516419673436e+00 -8.093730912972333e+00
+  2.050495145858191e+00 -6.119922112635083e-01  2.018593911071596e+00
+ -6.877555857790338e+00  2.495094277384942e+00  1.331003037427918e+01
+Node: 190
+  2.549143919567667e+01  5.934082539456091e-01 -7.119850488670587e+00
+  6.541879747308046e+00  3.276076198205682e+00  1.643733364243785e+00
+  6.106424558586294e+00 -1.360012475170708e-01  8.529463693110170e+00
+Node: 191
+  2.409085742833221e+01 -2.793436949495121e+00 -6.019836139651311e+00
+  8.902987917393528e+00  4.327438425773652e-01 -2.106766560580742e-01
+  4.896656431159466e+00 -1.764298083288689e+00  9.479613358763835e+00
+Node: 192
+  2.193472480574047e+01 -5.934082540072126e-01 -4.326413538643786e+00
+  7.092866320466386e+00 -3.276076198187857e+00  1.210989521666419e+00
+  3.860050470278679e+00  1.360012473727671e-01  1.029376177608095e+01
+Node: 193
+  2.333530657308494e+01  2.793436949471221e+00 -5.426427886266794e+00
+  4.731758150380903e+00 -4.327438425773656e-01  3.065399541950453e+00
+  5.069818597705511e+00  1.764298083288689e+00  9.343612111242770e+00
+Node: 194
+  2.069474173750144e+01 -4.196030003678546e-01  1.975258210011978e+00
+  7.570153592414439e+00 -2.316535695432794e+00 -3.059961056404294e-01
+  9.946857014048483e+00  9.616740443286988e-02  1.247547138280114e+00
+Node template: node2
+Node: 195
+ 193  0.000000000000000e+00  0.000000000000000e+00
+ nuclei
+Node template: node1
+Node: 211
+  1.526258825475539e+01  1.573117312364690e-01  1.514532624588452e+00
+ -1.743114854953163e+00  2.347228458829917e+00  0.000000000000000e+00
+ -1.280683217537594e+01 -1.320002158332455e-01  1.804949695816023e+00
+Node: 212
+  1.215583808641182e+01  2.224723843282649e-01 -7.405300329372051e+00
+ -1.232568334324387e+00  3.319482320465366e+00  9.680569060117346e-01
+ -7.430772215467284e+00 -1.866764952209220e-01  8.388699189990461e+00
+Node: 213
+  1.093390997188674e+01 -2.141872577856249e+00 -8.365000426136042e+00
+  8.806797448838894e-01  2.032596699216561e-16  2.627798066182760e+00
+ -9.174639824735744e+00 -2.552584339717472e+00  7.019068772397950e+00
+Node: 214
+  9.428721220379563e+00 -2.224723843282651e-01 -9.547172907228299e+00
+ -1.232568334324387e+00 -3.319482320465366e+00  9.680569060117348e-01
+ -1.068082353798549e+01  1.866764954675513e-01  5.836114850272990e+00
+Node: 215
+  1.065064933490465e+01  2.141872577856249e+00 -8.587472810464309e+00
+ -3.345816413532663e+00 -6.097790097649684e-16 -6.916842541592911e-01
+ -8.936955928717035e+00  2.552584339717472e+00  7.205745267618871e+00
+Node: 216
+  1.928362829059619e+00  3.146234628217249e-01 -1.198720878396315e+01
+ -1.067350013832297e-16  4.694456917605195e+00  1.369039205671024e+00
+  2.298133329356933e+00 -2.640004316664911e-01  1.005846246951108e+01
+Node: 217
+  2.002955172532532e-01 -3.029065248610125e+00 -1.198720878397950e+01
+  2.988584094275237e+00  2.874525818973632e-16  1.369039205630732e+00
+ -1.680678946536670e-01 -3.609899392242424e+00  1.005846246947838e+01
+Node: 218
+ -1.928362829059617e+00 -3.146234628217253e-01 -1.198720878396315e+01
+  2.592609931204563e-16 -4.694456917605194e+00  1.369039205671024e+00
+ -2.298133329356935e+00  2.640004316664906e-01  1.005846246951108e+01
+Node: 219
+ -2.002955172532515e-01  3.029065248610125e+00 -1.198720878397950e+01
+ -2.988584094275237e+00 -8.623577456920896e-16  1.369039205630731e+00
+  1.680678946536652e-01  3.609899392242424e+00  1.005846246947838e+01
+Node: 220
+ -9.428721220379561e+00  2.224723838350058e-01 -9.547172907228299e+00
+  1.232568334324387e+00  3.319482320465366e+00  9.680569060117346e-01
+  1.068082353798549e+01 -1.866764954675516e-01  5.836114850272990e+00
+Node: 221
+ -1.065064933490465e+01 -2.141872577856249e+00 -8.587472810464309e+00
+  3.345816413532663e+00  2.032596699216561e-16 -6.916842541592911e-01
+  8.936955928717035e+00 -2.552584339717472e+00  7.205745267865502e+00
+Node: 222
+ -1.215583808641182e+01 -2.224723838350060e-01 -7.405300329372051e+00
+  1.232568334324387e+00 -3.319482320465366e+00  9.680569060117343e-01
+  7.430772215467284e+00  1.866764952209217e-01  8.388699189990461e+00
+Node: 223
+ -1.093390997188673e+01  2.141872577856249e+00 -8.365000426136042e+00
+ -8.806797448838894e-01 -6.097790097649684e-16  2.627798066182760e+00
+  9.174639824735744e+00  2.552584339717472e+00  7.019068772644580e+00
+Node: 224
+ -1.526258825475539e+01 -1.573117312364690e-01  1.514532624588452e+00
+  1.743114854953163e+00 -2.347228458829917e+00  0.000000000000000e+00
+  1.280683217537594e+01  1.320002158332455e-01  1.804949695816023e+00
+Node template: node2
+Node: 225
+ 225  0.000000000000000e+00  0.000000000000000e+00
+ nuclei
+Node template: node1
+Node: 226
+  4.226258825475539e+01  1.573117312345793e-01  1.514532624570259e+00
+ -1.743114854953164e+00  2.347228458835870e+00  0.000000000000000e+00
+ -2.980683217537594e+01 -1.320002158316599e-01  1.804949695794341e+00
+Node: 227
+  3.915583808641182e+01  2.224723843514853e-01 -7.405300330144972e+00
+ -1.232568334324388e+00  3.319482320473784e+00  9.680569060141895e-01
+ -2.443077221546729e+01 -1.866764952186796e-01  8.388699189889694e+00
+Node: 228
+  3.793390997188674e+01 -2.141872577830520e+00 -8.365000426035559e+00
+  8.806797448838888e-01  2.032596699214323e-16  2.627798066179866e+00
+ -2.617463982473574e+01 -2.552584339686810e+00  7.019068772313635e+00
+Node: 229
+  3.642872122037956e+01 -2.224723843255927e-01 -9.547172907113616e+00
+ -1.232568334324387e+00 -3.319482320473784e+00  9.680569060141897e-01
+ -2.768082353798549e+01  1.866764954653089e-01  5.836114850202885e+00
+Node: 230
+  3.765064933490465e+01  2.141872577581236e+00 -8.587472809361689e+00
+ -3.345816413532663e+00 -6.097790097665147e-16 -6.916842541610452e-01
+ -2.593695592871703e+01  2.552584339686810e+00  7.205745267532314e+00
+Node: 231
+  2.892836282905962e+01  3.146234628179455e-01 -1.198720878381916e+01
+ -2.150963363621342e-16  4.694456917605195e+00  1.369039205671025e+00
+ -1.470186667064307e+01 -2.640004316633199e-01  1.005846246939026e+01
+Node: 232
+  2.720029551725325e+01 -3.029065248573739e+00 -1.198720878383551e+01
+  2.988584094275237e+00  2.874525818980922e-16  1.369039205634204e+00
+ -1.716806789465367e+01 -3.609899392199061e+00  1.005846246935756e+01
+Node: 233
+  2.507163717094038e+01 -3.146234628362549e-01 -1.198720878451673e+01
+  3.676223280993607e-16 -4.694456917605194e+00  1.369039205671025e+00
+ -1.929813332935694e+01  2.640004316786824e-01  1.005846246997559e+01
+Node: 234
+  2.679970448274675e+01  3.029065248573739e+00 -1.198720878383551e+01
+ -2.988584094275237e+00 -8.623577456942766e-16  1.369039205634203e+00
+ -1.683193210534634e+01  3.609899392199061e+00  1.005846246935756e+01
+Node: 235
+  1.757127877962044e+01  2.224723838323334e-01 -9.547172907113616e+00
+  1.232568334324387e+00  3.319482320473784e+00  9.680569060141895e-01
+ -6.319176462014511e+00 -1.866764954653092e-01  5.836114850202885e+00
+Node: 236
+  1.634935066509535e+01 -2.141872577830520e+00 -8.587472810361154e+00
+  3.345816413532663e+00  2.032596699221716e-16 -6.916842541610452e-01
+ -8.063044071282965e+00 -2.552584339686810e+00  7.205745267778944e+00
+Node: 237
+  1.484416191358818e+01 -2.224723838323336e-01 -7.405300329283096e+00
+  1.232568334324388e+00 -3.319482320473784e+00  9.680569060141893e-01
+ -9.569227784532716e+00  1.866764952186793e-01  8.388699189889694e+00
+Node: 238
+  1.606609002811327e+01  2.141872577830520e+00 -8.365000426035559e+00
+ -8.806797448838888e-01 -6.097790097642969e-16  2.627798066179866e+00
+ -7.825360175264256e+00  2.552584339686810e+00  7.019068772560265e+00
+Node: 239
+  1.173741174524461e+01 -1.573117312345793e-01  1.514532624570259e+00
+  1.743114854953164e+00 -2.347228458835870e+00  0.000000000000000e+00
+ -4.193167824624060e+00  1.320002158316599e-01  1.804949695794341e+00
+Node template: node2
+Node: 240
+ 241  0.000000000000000e+00  0.000000000000000e+00
+ nuclei
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Define element template: element1
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element template: element1
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 225
+Element: 226
+Element: 227
+Element: 228
+Element: 229
+Element: 230
+Element: 231
+Element: 232
+Element: 233
+Element: 234
+Element: 235
+Element: 236
+Element: 237
+Element: 238
+Element: 239
+Element: 240
+Element: 241
+Element: 242
+Element: 243
+Element: 244
+Element: 245
+Element: 246
+Element: 247
+Element: 248
+Element: 249
+Element: 250
+Element: 251
+Element: 252
+Element: 337
+Element: 338
+Element: 339
+Element: 340
+Element: 341
+Element: 342
+Element: 343
+Element: 344
+Element: 345
+Element: 346
+Element: 347
+Element: 348
+Element: 349
+Element: 350
+Element: 351
+Element: 352
+Element: 353
+Element: 354
+Element: 355
+Element: 356
+Element: 357
+Element: 358
+Element: 359
+Element: 360
+Element: 361
+Element: 362
+Element: 363
+Element: 364
+Element: 393
+Element: 394
+Element: 395
+Element: 396
+Element: 397
+Element: 398
+Element: 399
+Element: 400
+Element: 401
+Element: 402
+Element: 403
+Element: 404
+Element: 405
+Element: 406
+Element: 407
+Element: 408
+Element: 409
+Element: 410
+Element: 411
+Element: 412
+Element: 413
+Element: 414
+Element: 415
+Element: 416
+Element: 417
+Element: 418
+Element: 419
+Element: 420
+Element: 421
+Element: 422
+Element: 423
+Element: 424
+Element: 425
+Element: 426
+Element: 427
+Element: 428
+Element: 429
+Element: 430
+Element: 431
+Element: 432
+Element: 433
+Element: 434
+Element: 435
+Element: 436
+Element: 437
+Element: 438
+Element: 439
+Element: 440
+Element: 441
+Element: 442
+Element: 443
+Element: 444
+Element: 445
+Element: 446
+Element: 447
+Element: 448
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Define element template: element2
+Shape. Dimension=2, line*line
+#Scale factor sets=1
+  scaling1, #Scale factors=7, identifiers="global_general(1) node_general(1,2,3,101,102,103)"
+#Nodes=3
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element template: element2
+Element: 1
+ Faces:
+ 1 2 -1 3
+ Nodes:
+ 1 2 3
+ Scale factors:
+ -1.000000000000000e+00  0.000000000000000e+00  1.000000000000000e+00  1.570796326794897e+00  1.000000000000000e+00
+  6.123233995736766e-17  1.570796326794897e+00
+Define element template: element3
+Shape. Dimension=2, line*line
+#Scale factor sets=1
+  scaling1, #Scale factors=7, identifiers="global_general(1) node_general(101,102,103,201,202,203)"
+#Nodes=3
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element template: element3
+Element: 2
+ Faces:
+ 2 4 -1 5
+ Nodes:
+ 1 3 4
+ Scale factors:
+ -1.000000000000000e+00  1.000000000000000e+00  6.123233995736766e-17  1.570796326794897e+00  1.224646799147353e-16
+ -1.000000000000000e+00  1.570796326794897e+00
+Define element template: element4
+Shape. Dimension=2, line*line
+#Scale factor sets=1
+  scaling1, #Scale factors=7, identifiers="global_general(1) node_general(201,202,203,301,302,303)"
+#Nodes=3
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element template: element4
+Element: 3
+ Faces:
+ 4 6 -1 7
+ Nodes:
+ 1 4 5
+ Scale factors:
+ -1.000000000000000e+00  1.224646799147353e-16 -1.000000000000000e+00  1.570796326794897e+00 -1.000000000000000e+00
+ -1.836970198721030e-16  1.570796326794897e+00
+Define element template: element5
+Shape. Dimension=2, line*line
+#Scale factor sets=1
+  scaling1, #Scale factors=7, identifiers="global_general(1) node_general(301,302,303,1,2,3)"
+#Nodes=3
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 3*4+1*2*4
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  1+1. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 6*7+1*5*7
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element template: element5
+Element: 4
+ Faces:
+ 6 1 -1 8
+ Nodes:
+ 1 5 2
+ Scale factors:
+ -1.000000000000000e+00 -1.000000000000000e+00 -1.836970198721030e-16  1.570796326794897e+00  0.000000000000000e+00
+  1.000000000000000e+00  1.570796326794897e+00
+Define element template: element6
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=4
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite, no modify, standard node based.
+  #Nodes=4
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ y. c.Hermite*c.Hermite, no modify, standard node based.
+  #Nodes=4
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ z. c.Hermite*c.Hermite, no modify, standard node based.
+  #Nodes=4
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+Element template: element6
+Element: 5
+ Faces:
+ 9 10 3 11
+ Nodes:
+ 2 3 6 7
+Element: 6
+ Faces:
+ 10 12 5 13
+ Nodes:
+ 3 4 7 8
+Element: 7
+ Faces:
+ 12 14 7 15
+ Nodes:
+ 4 5 8 9
+Element: 8
+ Faces:
+ 14 9 8 16
+ Nodes:
+ 5 2 9 6
+Element: 9
+ Faces:
+ 17 18 11 19
+ Nodes:
+ 6 7 10 11
+Element: 10
+ Faces:
+ 18 20 13 21
+ Nodes:
+ 7 8 11 12
+Element: 11
+ Faces:
+ 20 22 15 23
+ Nodes:
+ 8 9 12 13
+Element: 12
+ Faces:
+ 22 17 16 24
+ Nodes:
+ 9 6 13 10
+Define element template: element7
+Shape. Dimension=2, line*line
+#Scale factor sets=1
+  scaling1, #Scale factors=7, identifiers="global_general(1) node_general(1,2,3,101,102,103)"
+#Nodes=3
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+ y. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+ z. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+Element template: element7
+Element: 13
+ Faces:
+ 25 26 19 -1
+ Nodes:
+ 10 11 14
+ Scale factors:
+ -1.000000000000000e+00 -1.224646799147353e-16 -1.000000000000000e+00  1.570796326794897e+00  1.000000000000000e+00
+ -1.836970198721030e-16  1.570796326794897e+00
+Define element template: element8
+Shape. Dimension=2, line*line
+#Scale factor sets=1
+  scaling1, #Scale factors=7, identifiers="global_general(1) node_general(101,102,103,201,202,203)"
+#Nodes=3
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+ y. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+ z. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+Element template: element8
+Element: 14
+ Faces:
+ 26 27 21 -1
+ Nodes:
+ 11 12 14
+ Scale factors:
+ -1.000000000000000e+00  1.000000000000000e+00 -1.836970198721030e-16  1.570796326794897e+00  2.449293598294706e-16
+  1.000000000000000e+00  1.570796326794897e+00
+Define element template: element9
+Shape. Dimension=2, line*line
+#Scale factor sets=1
+  scaling1, #Scale factors=7, identifiers="global_general(1) node_general(201,202,203,301,302,303)"
+#Nodes=3
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+ y. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+ z. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+Element template: element9
+Element: 15
+ Faces:
+ 27 28 23 -1
+ Nodes:
+ 12 13 14
+ Scale factors:
+ -1.000000000000000e+00  2.449293598294706e-16  1.000000000000000e+00  1.570796326794897e+00 -1.000000000000000e+00
+  3.061616997868383e-16  1.570796326794897e+00
+Define element template: element10
+Shape. Dimension=2, line*line
+#Scale factor sets=1
+  scaling1, #Scale factors=7, identifiers="global_general(1) node_general(301,302,303,1,2,3)"
+#Nodes=3
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+ y. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+ z. c.Hermite*c.Hermite, no modify, standard node based. scale factor set=scaling1
+  #Nodes=3
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 2+3 1*3*4+2*4
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3+3. #Values=2
+   Value labels: d/ds1+d/ds2 d/ds1+d/ds2
+   Scale factor indices: 5+6 1*6*7+5*7
+Element template: element10
+Element: 16
+ Faces:
+ 28 25 24 -1
+ Nodes:
+ 13 10 14
+ Scale factors:
+ -1.000000000000000e+00 -1.000000000000000e+00  3.061616997868383e-16  1.570796326794897e+00 -1.224646799147353e-16
+ -1.000000000000000e+00  1.570796326794897e+00
+Element template: element2
+Element: 129
+ Faces:
+ 225 226 -1 227
+ Nodes:
+ 121 122 123
+ Scale factors:
+ -1.000000000000000e+00  0.000000000000000e+00  1.000000000000000e+00  1.570796326794897e+00  1.000000000000000e+00
+  6.123233995736766e-17  1.570796326794897e+00
+Element template: element3
+Element: 130
+ Faces:
+ 226 228 -1 229
+ Nodes:
+ 121 123 124
+ Scale factors:
+ -1.000000000000000e+00  1.000000000000000e+00  6.123233995736766e-17  1.570796326794897e+00  1.224646799147353e-16
+ -1.000000000000000e+00  1.570796326794897e+00
+Element template: element4
+Element: 131
+ Faces:
+ 228 230 -1 231
+ Nodes:
+ 121 124 125
+ Scale factors:
+ -1.000000000000000e+00  1.224646799147353e-16 -1.000000000000000e+00  1.570796326794897e+00 -1.000000000000000e+00
+ -1.836970198721030e-16  1.570796326794897e+00
+Element template: element5
+Element: 132
+ Faces:
+ 230 225 -1 232
+ Nodes:
+ 121 125 122
+ Scale factors:
+ -1.000000000000000e+00 -1.000000000000000e+00 -1.836970198721030e-16  1.570796326794897e+00  0.000000000000000e+00
+  1.000000000000000e+00  1.570796326794897e+00
+Element template: element6
+Element: 133
+ Faces:
+ 233 234 227 235
+ Nodes:
+ 122 123 126 127
+Element: 134
+ Faces:
+ 234 236 229 237
+ Nodes:
+ 123 124 127 128
+Element: 135
+ Faces:
+ 236 238 231 239
+ Nodes:
+ 124 125 128 129
+Element: 136
+ Faces:
+ 238 233 232 240
+ Nodes:
+ 125 122 129 126
+Element: 137
+ Faces:
+ 241 242 235 243
+ Nodes:
+ 126 127 130 131
+Element: 138
+ Faces:
+ 242 244 237 245
+ Nodes:
+ 127 128 131 132
+Element: 139
+ Faces:
+ 244 246 239 247
+ Nodes:
+ 128 129 132 133
+Element: 140
+ Faces:
+ 246 241 240 248
+ Nodes:
+ 129 126 133 130
+Element template: element7
+Element: 141
+ Faces:
+ 249 250 243 -1
+ Nodes:
+ 130 131 134
+ Scale factors:
+ -1.000000000000000e+00 -1.224646799147353e-16 -1.000000000000000e+00  1.570796326794897e+00  1.000000000000000e+00
+ -1.836970198721030e-16  1.570796326794897e+00
+Element template: element8
+Element: 142
+ Faces:
+ 250 251 245 -1
+ Nodes:
+ 131 132 134
+ Scale factors:
+ -1.000000000000000e+00  1.000000000000000e+00 -1.836970198721030e-16  1.570796326794897e+00  2.449293598294706e-16
+  1.000000000000000e+00  1.570796326794897e+00
+Element template: element9
+Element: 143
+ Faces:
+ 251 252 247 -1
+ Nodes:
+ 132 133 134
+ Scale factors:
+ -1.000000000000000e+00  2.449293598294706e-16  1.000000000000000e+00  1.570796326794897e+00 -1.000000000000000e+00
+  3.061616997868383e-16  1.570796326794897e+00
+Element template: element10
+Element: 144
+ Faces:
+ 252 249 248 -1
+ Nodes:
+ 133 130 134
+ Scale factors:
+ -1.000000000000000e+00 -1.000000000000000e+00  3.061616997868383e-16  1.570796326794897e+00 -1.224646799147353e-16
+ -1.000000000000000e+00  1.570796326794897e+00
+Element template: element2
+Element: 193
+ Faces:
+ 337 338 -1 339
+ Nodes:
+ 181 182 183
+ Scale factors:
+ -1.000000000000000e+00  0.000000000000000e+00  1.000000000000000e+00  1.570796326794897e+00  1.000000000000000e+00
+  6.123233995736766e-17  1.570796326794897e+00
+Element template: element3
+Element: 194
+ Faces:
+ 338 340 -1 341
+ Nodes:
+ 181 183 184
+ Scale factors:
+ -1.000000000000000e+00  1.000000000000000e+00  6.123233995736766e-17  1.570796326794897e+00  1.224646799147353e-16
+ -1.000000000000000e+00  1.570796326794897e+00
+Element template: element4
+Element: 195
+ Faces:
+ 340 342 -1 343
+ Nodes:
+ 181 184 185
+ Scale factors:
+ -1.000000000000000e+00  1.224646799147353e-16 -1.000000000000000e+00  1.570796326794897e+00 -1.000000000000000e+00
+ -1.836970198721030e-16  1.570796326794897e+00
+Element template: element5
+Element: 196
+ Faces:
+ 342 337 -1 344
+ Nodes:
+ 181 185 182
+ Scale factors:
+ -1.000000000000000e+00 -1.000000000000000e+00 -1.836970198721030e-16  1.570796326794897e+00  0.000000000000000e+00
+  1.000000000000000e+00  1.570796326794897e+00
+Element template: element6
+Element: 197
+ Faces:
+ 345 346 339 347
+ Nodes:
+ 182 183 186 187
+Element: 198
+ Faces:
+ 346 348 341 349
+ Nodes:
+ 183 184 187 188
+Element: 199
+ Faces:
+ 348 350 343 351
+ Nodes:
+ 184 185 188 189
+Element: 200
+ Faces:
+ 350 345 344 352
+ Nodes:
+ 185 182 189 186
+Element: 201
+ Faces:
+ 353 354 347 355
+ Nodes:
+ 186 187 190 191
+Element: 202
+ Faces:
+ 354 356 349 357
+ Nodes:
+ 187 188 191 192
+Element: 203
+ Faces:
+ 356 358 351 359
+ Nodes:
+ 188 189 192 193
+Element: 204
+ Faces:
+ 358 353 352 360
+ Nodes:
+ 189 186 193 190
+Element template: element7
+Element: 205
+ Faces:
+ 361 362 355 -1
+ Nodes:
+ 190 191 194
+ Scale factors:
+ -1.000000000000000e+00 -1.224646799147353e-16 -1.000000000000000e+00  1.570796326794897e+00  1.000000000000000e+00
+ -1.836970198721030e-16  1.570796326794897e+00
+Element template: element8
+Element: 206
+ Faces:
+ 362 363 357 -1
+ Nodes:
+ 191 192 194
+ Scale factors:
+ -1.000000000000000e+00  1.000000000000000e+00 -1.836970198721030e-16  1.570796326794897e+00  2.449293598294706e-16
+  1.000000000000000e+00  1.570796326794897e+00
+Element template: element9
+Element: 207
+ Faces:
+ 363 364 359 -1
+ Nodes:
+ 192 193 194
+ Scale factors:
+ -1.000000000000000e+00  2.449293598294706e-16  1.000000000000000e+00  1.570796326794897e+00 -1.000000000000000e+00
+  3.061616997868383e-16  1.570796326794897e+00
+Element template: element10
+Element: 208
+ Faces:
+ 364 361 360 -1
+ Nodes:
+ 193 190 194
+ Scale factors:
+ -1.000000000000000e+00 -1.000000000000000e+00  3.061616997868383e-16  1.570796326794897e+00 -1.224646799147353e-16
+ -1.000000000000000e+00  1.570796326794897e+00
+Element template: element2
+Element: 225
+ Faces:
+ 393 394 -1 395
+ Nodes:
+ 211 212 213
+ Scale factors:
+ -1.000000000000000e+00  0.000000000000000e+00  1.000000000000000e+00  1.570796326794897e+00  1.000000000000000e+00
+  6.123233995736766e-17  1.570796326794897e+00
+Element template: element3
+Element: 226
+ Faces:
+ 394 396 -1 397
+ Nodes:
+ 211 213 214
+ Scale factors:
+ -1.000000000000000e+00  1.000000000000000e+00  6.123233995736766e-17  1.570796326794897e+00  1.224646799147353e-16
+ -1.000000000000000e+00  1.570796326794897e+00
+Element template: element4
+Element: 227
+ Faces:
+ 396 398 -1 399
+ Nodes:
+ 211 214 215
+ Scale factors:
+ -1.000000000000000e+00  1.224646799147353e-16 -1.000000000000000e+00  1.570796326794897e+00 -1.000000000000000e+00
+ -1.836970198721030e-16  1.570796326794897e+00
+Element template: element5
+Element: 228
+ Faces:
+ 398 393 -1 400
+ Nodes:
+ 211 215 212
+ Scale factors:
+ -1.000000000000000e+00 -1.000000000000000e+00 -1.836970198721030e-16  1.570796326794897e+00  0.000000000000000e+00
+  1.000000000000000e+00  1.570796326794897e+00
+Element template: element6
+Element: 229
+ Faces:
+ 401 402 395 403
+ Nodes:
+ 212 213 216 217
+Element: 230
+ Faces:
+ 402 404 397 405
+ Nodes:
+ 213 214 217 218
+Element: 231
+ Faces:
+ 404 406 399 407
+ Nodes:
+ 214 215 218 219
+Element: 232
+ Faces:
+ 406 401 400 408
+ Nodes:
+ 215 212 219 216
+Element: 233
+ Faces:
+ 409 410 403 411
+ Nodes:
+ 216 217 220 221
+Element: 234
+ Faces:
+ 410 412 405 413
+ Nodes:
+ 217 218 221 222
+Element: 235
+ Faces:
+ 412 414 407 415
+ Nodes:
+ 218 219 222 223
+Element: 236
+ Faces:
+ 414 409 408 416
+ Nodes:
+ 219 216 223 220
+Element template: element7
+Element: 237
+ Faces:
+ 417 418 411 -1
+ Nodes:
+ 220 221 224
+ Scale factors:
+ -1.000000000000000e+00 -1.224646799147353e-16 -1.000000000000000e+00  1.570796326794897e+00  1.000000000000000e+00
+ -1.836970198721030e-16  1.570796326794897e+00
+Element template: element8
+Element: 238
+ Faces:
+ 418 419 413 -1
+ Nodes:
+ 221 222 224
+ Scale factors:
+ -1.000000000000000e+00  1.000000000000000e+00 -1.836970198721030e-16  1.570796326794897e+00  2.449293598294706e-16
+  1.000000000000000e+00  1.570796326794897e+00
+Element template: element9
+Element: 239
+ Faces:
+ 419 420 415 -1
+ Nodes:
+ 222 223 224
+ Scale factors:
+ -1.000000000000000e+00  2.449293598294706e-16  1.000000000000000e+00  1.570796326794897e+00 -1.000000000000000e+00
+  3.061616997868383e-16  1.570796326794897e+00
+Element template: element10
+Element: 240
+ Faces:
+ 420 417 416 -1
+ Nodes:
+ 223 220 224
+ Scale factors:
+ -1.000000000000000e+00 -1.000000000000000e+00  3.061616997868383e-16  1.570796326794897e+00 -1.224646799147353e-16
+ -1.000000000000000e+00  1.570796326794897e+00
+Element template: element2
+Element: 241
+ Faces:
+ 421 422 -1 423
+ Nodes:
+ 226 227 228
+ Scale factors:
+ -1.000000000000000e+00  0.000000000000000e+00  1.000000000000000e+00  1.570796326794897e+00  1.000000000000000e+00
+  6.123233995736766e-17  1.570796326794897e+00
+Element template: element3
+Element: 242
+ Faces:
+ 422 424 -1 425
+ Nodes:
+ 226 228 229
+ Scale factors:
+ -1.000000000000000e+00  1.000000000000000e+00  6.123233995736766e-17  1.570796326794897e+00  1.224646799147353e-16
+ -1.000000000000000e+00  1.570796326794897e+00
+Element template: element4
+Element: 243
+ Faces:
+ 424 426 -1 427
+ Nodes:
+ 226 229 230
+ Scale factors:
+ -1.000000000000000e+00  1.224646799147353e-16 -1.000000000000000e+00  1.570796326794897e+00 -1.000000000000000e+00
+ -1.836970198721030e-16  1.570796326794897e+00
+Element template: element5
+Element: 244
+ Faces:
+ 426 421 -1 428
+ Nodes:
+ 226 230 227
+ Scale factors:
+ -1.000000000000000e+00 -1.000000000000000e+00 -1.836970198721030e-16  1.570796326794897e+00  0.000000000000000e+00
+  1.000000000000000e+00  1.570796326794897e+00
+Element template: element6
+Element: 245
+ Faces:
+ 429 430 423 431
+ Nodes:
+ 227 228 231 232
+Element: 246
+ Faces:
+ 430 432 425 433
+ Nodes:
+ 228 229 232 233
+Element: 247
+ Faces:
+ 432 434 427 435
+ Nodes:
+ 229 230 233 234
+Element: 248
+ Faces:
+ 434 429 428 436
+ Nodes:
+ 230 227 234 231
+Element: 249
+ Faces:
+ 437 438 431 439
+ Nodes:
+ 231 232 235 236
+Element: 250
+ Faces:
+ 438 440 433 441
+ Nodes:
+ 232 233 236 237
+Element: 251
+ Faces:
+ 440 442 435 443
+ Nodes:
+ 233 234 237 238
+Element: 252
+ Faces:
+ 442 437 436 444
+ Nodes:
+ 234 231 238 235
+Element template: element7
+Element: 253
+ Faces:
+ 445 446 439 -1
+ Nodes:
+ 235 236 239
+ Scale factors:
+ -1.000000000000000e+00 -1.224646799147353e-16 -1.000000000000000e+00  1.570796326794897e+00  1.000000000000000e+00
+ -1.836970198721030e-16  1.570796326794897e+00
+Element template: element8
+Element: 254
+ Faces:
+ 446 447 441 -1
+ Nodes:
+ 236 237 239
+ Scale factors:
+ -1.000000000000000e+00  1.000000000000000e+00 -1.836970198721030e-16  1.570796326794897e+00  2.449293598294706e-16
+  1.000000000000000e+00  1.570796326794897e+00
+Element template: element9
+Element: 255
+ Faces:
+ 447 448 443 -1
+ Nodes:
+ 237 238 239
+ Scale factors:
+ -1.000000000000000e+00  2.449293598294706e-16  1.000000000000000e+00  1.570796326794897e+00 -1.000000000000000e+00
+  3.061616997868383e-16  1.570796326794897e+00
+Element template: element10
+Element: 256
+ Faces:
+ 448 445 444 -1
+ Nodes:
+ 238 235 239
+ Scale factors:
+ -1.000000000000000e+00 -1.000000000000000e+00  3.061616997868383e-16  1.570796326794897e+00 -1.224646799147353e-16
+ -1.000000000000000e+00  1.570796326794897e+00
+Group name: .scene_selection
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Element group:
+1..16,129..144,193..208,225..256
+Group name: cmiss_selection
+!#nodeset nodes
+Node group:
+181..194
+Group name: marker
+!#nodeset nodes
+Node group:
+15,135,195,225,240
+Group name: nuclei
+!#nodeset nodes
+Node group:
+1..14,121..134,181..194,211..224,226..239
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Element group:
+1..28,225..252,337..364,393..448
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Element group:
+1..16,129..144,193..208,225..256

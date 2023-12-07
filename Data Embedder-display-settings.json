@@ -1,0 +1,21 @@
+{
+    "displayAxes": true,
+    "displayDataMarkerPoints": true,
+    "displayDataMarkerNames": true,
+    "displayDataNodePoints": true,
+    "displayDataLines": true,
+    "displayDataEmbedded": true,
+    "displayModelCoordinatesField": "fitted coordinates",
+    "displayMarkerPoints": true,
+    "displayMarkerNames": false,
+    "displayNodePoints": false,
+    "displayNodeNumbers": false,
+    "displayElementNumbers": false,
+    "displayElementAxes": false,
+    "displayLines": true,
+    "displayLinesExterior": true,
+    "displaySurfaces": true,
+    "displaySurfacesExterior": true,
+    "displaySurfacesTranslucent": true,
+    "displaySurfacesWireframe": false
+}

@@ -1,0 +1,31 @@
+{
+    "fittedCoordinatesField": "fitted coordinates",
+    "materialCoordinatesField": "brainstem coordinates",
+    "hostMarkerGroup": "marker",
+    "hostProjectionGroup": null,
+    "dataCoordinatesField": "coordinates",
+    "dataMarkerGroup": "marker",
+    "diagnosticLevel": 0,
+    "groupData": {
+        ".scene_selection": {
+            "embed": true,
+            "dimension": 2,
+            "size": 80
+        },
+        "cmiss_selection": {
+            "embed": false,
+            "dimension": 0,
+            "size": 0
+        },
+        "marker": {
+            "embed": false,
+            "dimension": 0,
+            "size": 0
+        },
+        "nuclei": {
+            "embed": true,
+            "dimension": 2,
+            "size": 80
+        }
+    }
+}
